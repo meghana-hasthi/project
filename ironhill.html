@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Houses</title>
+    <style>
+        h1{
+            background-color: black;
+            color: white;
+            padding: 50px;
+            margin-top: auto;
+            font-size: 40px;
+        }
+        img{
+            margin-top:-28px ;
+            width:1503px;
+        }
+        h2{
+            margin-top:100px;
+            font-size: 50px;
+            margin-bottom: 100px;
+            
+        }
+        .img2{
+            display: flex;
+            justify-content: space-around;
+        
+        }
+        .child>label{
+            display: block;
+            text-align:center;
+        }
+        .child>img{
+            height: 200px;
+            width: 200px;
+            border: 5px solid black;
+            border-radius: 110px;
+            
+        }
+        .child>img:hover{
+            border-color: rgb(255, 115, 0);
+        }
+        .img3{
+            margin-top: 150px;
+            height: 200px;
+            width: 200px;
+            margin-bottom: 200px
+        }
+        .matter1{
+            font-size: x-large;
+            width: 1250px;
+            text-align: center;
+            margin-left: 100px;
+        }
+        .img4{
+            margin-left: 200px;
+            margin-top: 240px;
+        }
+        .hyd{
+            margin-left: 800px;
+            margin-top: -350px;
+            font-size: 50px;
+        }
+        .matter2{
+            margin-top: -50px;
+            margin-left: 800px;
+            font-size: 20px;
+            margin-right: 200px;
+        }
+       .img5{
+            margin-left: 780px;
+            margin-top: 250px;
+       }
+       .iron{
+            font-size: 50px;
+            margin-left: 570px;
+            margin-top: -360px;
+       }
+       .vskp{
+            font-size: 50px;
+            margin-left: 370px;
+            margin-top: -80px;
+       }
+       .matter3{
+            margin-top: -50px;
+            margin-left: 250px;
+            font-size: 20px;
+            margin-right: 715px;
+       }
+       .img6{
+            margin-left: 200px;
+            margin-top: 240px;
+       }
+       .vj{
+            margin-left: 800px;
+            margin-top: -350px;
+            font-size: 50px;
+       }
+       .matter4{
+            margin-top: -50px;
+            margin-left: 800px;
+            font-size: 20px;
+            margin-right: 200px;
+       }
+       .img7{
+            margin-left: 780px;
+            margin-top: 250px;
+       }
+       .bang{
+            font-size: 50px;
+            margin-left: 330px;
+            margin-top: -350px;
+       }
+       .matter5{
+            margin-top: -50px;
+            margin-left: 250px;
+            font-size: 20px;
+            margin-right: 715px;   
+       }
+       .img8{
+        margin-left: 200px;
+        margin-top: 240px;
+       }
+       .raj{
+        margin-left: 800px;
+            margin-top: -390px;
+            font-size: 50px;
+       }
+       .matter6{
+            margin-top: -50px;
+            margin-left: 800px;
+            font-size: 20px;
+            margin-right: 200px;
+       }
+       .img9{
+            margin-left: 780px;
+            margin-top: 250px;
+       }
+       .nel{
+            font-size: 50px;
+            margin-left: 330px;
+            margin-top: -350px;
+       }
+       .matter7{
+            margin-top: -50px;
+            margin-left: 250px;
+            font-size: 20px;
+            margin-right: 715px; 
+       }
+       .india{
+            margin-top: 340px;
+            margin-bottom: 50px;
+            font-size: 20px;
+       }
+       .fran{
+        font-size:40px; 
+        background-color: rgb(238, 138, 88);
+        padding: 1px;
+        margin-top: 80px;
+        margin-left: 200px;
+        margin-right: 200px;
+        text-decoration:none;
+       }
+       .dd{
+        text-decoration: none;
+       }
+       .logo{
+        margin-top: 70px;
+        background-color: black;
+        padding: 30px;
+       }
+       .au,.bh,.cb,.fr{
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        
+       }
+       .au{
+        margin-left: 200px;
+        margin-right: 100px;
+       }
+       .cb{
+        margin-left: 70px;
+        margin-right: 117px;
+       }
+       .bh{
+        margin-left: 117px;
+        margin-right: 117px;
+       }
+       .fr{
+        margin-left: 1px;
+        margin-right: 117px;
+       }
+       .au,.bh,.cb,.fr{
+        color: rgb(253, 251, 251);
+        font-size: 20px;
+        text-decoration: none;
+        }
+       .au{
+        margin-left: 200px;
+        margin-right: 100px;
+       }
+       .cb{
+        margin-left: 70px;
+        margin-right: 117px;
+       }
+       .bh{
+        margin-left: 117px;
+        margin-right: 117px;
+       }
+       .fr{
+        margin-left: 1px;
+        margin-right: 117px;
+       }
+       .nav2>nav>a:hover{
+        text-decoration: underline;
+        text-decoration-color: orange;
+       }
+       
+       .a,.c,.b,.f{
+        color: rgb(13, 13, 13);
+        font-size: 20px;
+        text-decoration: none;
+       }
+       .nav3{
+        padding:30px;
+        position:fixed;
+        top:-30px;
+        left:-30px;
+        width:100%;
+       }
+       .imgl{
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        top:40px;
+        left: 733px;
+       }
+       .mainnav{
+        background-color: #fff;
+        padding:20px;
+        position: sticky;
+        left:0px;
+        width:100%;
+       }
+       .mainnav>ul>li{
+        display: inline;
+        margin-left: 50px;
+       }
+       .mainnav>ul{
+        margin-left: 250px;
+        padding-left:50px;
+       }
+       .mh1{
+        margin-top: 100px;
+       }
+        
+    </style>
+</head> 
+<body>
+    
+   
+                    
+                   
+                  
+    <div class="logo1">
+        
+        <div class="nav3">
+            <nav class="mainnav">
+               <ul>
+                <li> <a class="a" href="craftbeer edit.html"><b>CRAFT BEER</b></a></li>
+                <li> <a class="c" href="ironhill.html"><b>BREW HOUSES</b></a></li>
+                <li><a href="index.html"><img class="imgl" src="11.png"></a></li>
+                <li style="margin-left:100px;"> <a class="b" href="aboutus edit.html"><b>ABOUT US</b></a></li>
+                <li>  <a class="f" href="franchise edit.html"><b>FRANCHISE</b></a>
+                </li>
+               </ul>
+            </nav>
+        </div>
+    </div>
+
+
+
+
+
+    <h1 align="center" class="mh1">Brew Houses</h1>
+    <img src="brewhouse-banner-bg.png" alt="Banner">
+    <h2 align="center">BREW HOUSES</h2>
+<div class="img2">
+    <div class="child">
+        <img src="vizag-beach.png" alt="Vizag">
+        <label class="k1"><b>VISAKHAPATNAM</b></label>
+    </div>
+    <div class="child">
+        <img src="rajahmundry-loc1.png"alt="Rajahmundary">
+        <label class="k2"><b>RAJAHMUNDARY</b></label>
+    </div>
+    <div class="child">
+        <img src="vijayawada-krishna.png"alt="Vijayawada">
+        <label class="k3"><b>VIJAYAWADA</b></label>
+    </div>
+    <div class="child">
+        <img src="nellore-locimg.png"alt="Nellore">
+        <label class="k4"><b>NELLORE</b></label>
+    </div>
+    <div class="child">
+        <img src="hyd-char.png"alt="Hyderabad">
+        <label class="k5"><b>HYDERABAD</b></label>
+    </div>
+    <div class="child">
+        <img src="banglore-vidhana.png"alt="Bangalore">
+    <label class="k6"><b>BANGLORE</b></label>
+    </div>
+   </div>  
+   
+   <div class="img3">
+     <img src="https://ironhillindia.com/images/logo-740-brew.svg" alt="Ironhill-India" height="400px" width="200px">
+</div>
+
+<div class="matter1">
+    <p>The Brew culture in India took off in early 2000s with the launch of the first-ever microbrewery, redefining the craft experience. The birth of microbreweries shifted narrative around beer and its consumption. Cities like Gurgaon, Bengaluru, Pune and Bombay brought in a new perspective to beer with flavourful experimental craft brews, moving the crowd away from low quality mass produced bottled beer.</p>
+
+    <p> In the South, Prost Brew pub started this wave by introducing Bengaluru and Hyderabad to new world of beer and food experiences. Ironhill Brewery was launched in 2017 with the mission to introduce the beer aficionados to something larger than life. As a pion1eer in microbreweries, Ironhill India is now in 4 popular cities serving thousands of patrons every day.</p>
+        
+    <p>Ironhill is set to reignite a new culture beginning in Craft brews by going national.</p>
+   </div>
+
+   <div class="img4">
+        <img src="1.png"  alt="Hyderabad" height="350" style="width:540px;">
+   </div>
+
+   <div class="hyd">
+        <h3><b>Ironhill Hyderabad</b></h3>
+   </div>
+
+   <div class="matter2">
+        <p>The city of Nizams witnessed a fresh beginning in craft culture with Ironhill Hyderabad. Located in the prime of Kukatpally with 25000 sq.ft, Ironhill Kukatpally is home to the signature brews and wide palate of dishes. Built with supreme interiors, the microbrewery is the first one in Kukatpally.</p>
+   </div>
+   
+   <div class="img5" alt="Visakhapatnam">
+    <img src="2.png" height="350" style="width: 540px;">   
+   </div>
+
+   <div class="iron">
+    <h3>Ironhill</h3>
+    </div>
+    <div class="vskp">
+    <h3>Visakhapatnam</h3>
+   </div>
+
+   <div class="matter3">
+    <p>Ironhill Visakhapatnam is Andhra Pradesh’s first ever microbrewery. Built in 6,000 sq.ft carpet, Ironhill Visakhapatnam birthed a craft renaissance in Andhra Pradesh with signature brews, local food and Ironhill cocktails. To date, the brewery has served thousands of patrons and continues to be a go to spot for flavourful brews.</p>
+   </div>
+
+   <div class="img6">
+    <img src="3.png"alt="vijayawada"height="350" style="width: 540px;">
+   </div>
+     
+   <div class="vj">
+    <h3>Ironhill vijayawada</h3>
+   </div>
+
+   <div class="matter4">
+    <p>The success of Visakhapatnam pushed the Ironhill journey to the next level with the opening of Ironhill Vijayawada. Set in 7500 sq.ft, the city of Vijayawada, the microbrewery can house 300 patrons at a time. With Ironhill classic brews and flavourful dishes, Ironhill continues to impact the craft culture and lifestyle on progressive notes.</p>
+   </div>
+
+   <div class="img7" alt="Bangalore">
+    <img src="4.png" height="350" style="width: 540px;">
+   </div>
+
+   <div class="bang">
+    <h3>Ironhill Banglore</h3>
+   </div>
+   <div class="matter5">
+    <p>Bengaluru witnessed the birth of the world's largest microbrewery spread over 1,30,000 sq.ft with the combination of indoor and outdoor seating which brings you a whole new experience in terms of interiors and landscape. With lip-smacking food, frothiest brews and mind-bending interiors, Ironhill Bengaluru redefines craft brewery standards.</p>
+   </div>
+
+   <div class="img8" alt="Rajahmundary">
+    <img src="5.png" height="350" style="width: 540px;">
+   </div>
+
+   <div class="raj">
+    <h3>Ironhill <br>Rajahmundary</h3>
+   </div>
+
+   <div class="matter6">
+    <p>The success of Vijayawada pushed the Ironhill journey to the next level the opening of Ironhill Rajahmundry. Set in 10903 sq.ft, the city of Rajahmundry, the microbrewery can house 300 patrons at a time. With Ironhill classic brews and flavourful dishes, Ironhill continues to impact the craft culture and lifestyle on progressive notes.</p>
+   </div>
+
+   <div class="img9" alt="Nellore">
+    <img src="6.png" height="350" style="width: 540px;">
+   </div>
+
+   <div class="nel">
+    <h3>Ironhill Nellore</h3>
+   </div>
+   <div class="matter7">
+    <p>The success of Rajahmundry pushed the Ironhill journey to the next level with the opening of Ironhill Nellore. Set in 8000 sq.ft, the city of Nellore, the microbrewery can house 200 patrons at a time. With Ironhill classic brews and flavourful dishes, Ironhill continues to impact the craft culture and lifestyle on progressive notes.</p>
+</div>
+<div class="india">
+    <h3 align="center"><b>@IRONHILLINDIA</b></h3>
+</div>
+
+<div class="img10">
+    <img src="7.png" alt="banner">
+</div>
+
+<div class="fran">
+    <a class="dd" href="franchise edit.html" style="color: white;"><h3 align="center">Franchise Enquiry</h3></a>
+</div>
+<div class="logo">
+    <center><img src="10.png" height="80px" style="width: 200px;"></center>
+    <div class="nav2">
+       <nav>
+            <a class="au" href="aboutus edit.html"><b>ABOUT US</b></a>
+            <a class="cb" href="craftbeer edit.html"><b>CRAFT BEER</b></a>
+            <a class="bh" href="ironhill.html"><b>BREW HOUSES</b></a>
+            <a class="fr" href="franchise edit.html"><b>FRANCHISE</b></a>
+        </nav>
+    </div>
+</div>
+
+
+
+</body>
+</html>
